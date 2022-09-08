@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+
+int main()
+
+{
+    int a;
+    int r;
+int d;
+int e;
+
+    printf("\n informe a largura do retangulo  ");
+    scanf("%d",&a);
+    printf("\n informe o comprimento do retangulo  ");
+    scanf("%d",&d);
+    
+      printf("\n informe a altura do retangulo  ");
+    scanf("%d",&r);
+    
+    
+    e=a*d*r;
+    
+    printf("\n a medida do retangulo é %d  metros quadrados ",e);
+    
+    
+
+    return 0;
+}
