@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    
+    float d,e,c;
+    
+    printf("insira os catetos ");
+    scanf("%f", &d);
+    scanf("%f", &e);
+    
+    d = d*d;
+    e = e*e;
+    c = sqrt (d+e);
+    printf(" a hipotenusa da equação é %.2f", c);
+}
+
