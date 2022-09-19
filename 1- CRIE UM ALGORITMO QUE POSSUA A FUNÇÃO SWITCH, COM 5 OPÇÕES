@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main()
+{
+   
+    printf("\n ARROZ");
+    printf("\n FEIJÃO");
+    printf("\n CARNE");
+    printf("\n TORRESMO");
+    printf("\n SALAME");
+    
+    int lz;
+    
+    printf(" \n escolha um alimento: ");
+    scanf("%d",&lz);
+    
+    switch(lz){
+
+        case 1:
+            printf("\n Voce escolheu arroz");
+        break;
+
+        case 2:
+            printf("\n Voce escolheu feijão");
+        break;
+
+        case 3: 
+            printf("\n Voce escolheu carne");
+        break;
+
+        case 4:
+            printf("\n Voce escolheu torresmo");
+        break;
+
+        case 5:
+            printf("\n Voce escolheu salame");
+        break;
+
+        default:
+            printf("\n OPÇÃO INDISPONIVEL");
+        break;
+    }
+    return 0;
+
+}
